@@ -1,0 +1,67 @@
+
+.container {
+    display: flex;
+     
+}
+
+ .price-box {
+    font: 40px red;
+    color: red;
+    padding: auto;
+    margin-left: 30%;
+ }
+
+.buy-now {
+    margin-left: 20%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.content-2 {
+    margin-left: 5%;
+}
+
+.navbar {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px; 
+    width: 100%;
+    height: 15%;
+    background-color: rgba(247, 246, 239, 0.788);
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
